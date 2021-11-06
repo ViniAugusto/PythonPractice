@@ -17,6 +17,7 @@ def testa_consistencia(vol_amostra, maior_vol_ac_prim, diferenca_ac_prim, maior_
         entradas_consistentes = False  
     return(entradas_consistentes)
 
+
 def faz_combinacoes(vol_amostra, maior_vol_ac_prim, diferenca_ac_prim, maior_vol_ac_sec, diferenca_ac_sec):
     lista_impressoes = []
     for i in range(1,9):
